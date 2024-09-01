@@ -1,0 +1,4 @@
+repository "2D game@Kungfu90@cloud"
+  path "/"
+    br "/main"
+    co "/main"

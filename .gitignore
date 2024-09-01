@@ -1,0 +1,65 @@
+# Ignore specific Unity folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Uu]ser[Ss]ettings/
+
+# Ignore Plastic SCM-related files and folders
+/Assets/Plugins/PlasticSCM*
+/assets/plugins/PlasticSCM*
+
+# Ignore IDE-specific files and folders
+.vscode/
+.idea/
+.vs/
+.gradle/
+ExportedObj/
+.consulo/
+
+# Ignore auto-generated project files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+
+# Ignore build files and packages
+*.apk
+*.unitypackage
+
+# Ignore other files
+.DS_Store
+Thumbs.db
+Desktop.ini
+/ignore.conf
+.collabignore
+
+# Ignore Addressable Asset System binary data files
+**/Assets/AddressableAssetsData/*/*.bin*
+**/assets/addressableassetsdata/*/*.bin*
+**/Assets/StreamingAssets/aa.meta
+**/assets/streamingassets/*/aa/*
+
+# Ignore Unity DirMon sync files
+~UnityDirMonSyncFile~*
+
+# Ignore Asset Store Tools (if present)
+**/Assets/AssetStoreTools
+**/assets/assetstoretools
